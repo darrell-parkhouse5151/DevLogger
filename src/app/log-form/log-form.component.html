@@ -1,12 +1,12 @@
 <div class="card card-body mb-3">
-  <form (ngSubmit)="onSubmit()">
-    <div class="form-group">
-      <input type="text" class="form-control"
-      name="text"
-      [(ngModel)]="text"
-      placeholder="Add a log">
-    </div>
-    <input type="submit" value="add log" class="btn btn-light border" [disabled]="!this.text">
-    <button type="button" class="btn btn-warning" [hidden]="!this.text" (click)="clearState()">Clear</button>
-  </form>
+    <form (ngSubmit)="onSubmit()">
+        <div class="form-group">
+            <input type="text" class="form-control"
+                   name="text"
+                   [(ngModel)]="text"
+                   placeholder="Add a log">
+        </div>
+        <input type="submit" value="add log" class="btn btn-light border" [disabled]="!this.text">
+        <button type="button" class="btn btn-warning" [hidden]="!this.text" (click)="clearState()">Clear</button>
+    </form>
 </div>
