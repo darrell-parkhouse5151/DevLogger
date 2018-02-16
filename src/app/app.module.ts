@@ -7,13 +7,15 @@ import {AppComponent} from './app.component';
 import {LogService} from './services/log.service';
 import {LogsComponent} from './logs/logs.component';
 import {LogFormComponent} from './log-form/log-form.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 
 @NgModule({
     declarations: [
         AppComponent,
         LogsComponent,
-        LogFormComponent
+        LogFormComponent,
+        NavbarComponent
     ],
     imports: [
         BrowserModule,
