@@ -35,7 +35,7 @@ export class LogFormComponent implements OnInit {
                 date: new Date()
             };
 
-            this.logService.updateLog(newLog);
+            this.logService.addLog(newLog);
         } else {
             const updateLog = {
                 id: this.id,
